@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROVION | Autonomous Meritocracy Protocol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #050505; color: #e0e0e0; font-family: 'Courier New', Courier, monospace; }
+        .glow { text-shadow: 0 0 10px #00ff00; }
+        .border-neon { border: 1px solid #333; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4">
+
+    <header class="text-center mb-12">
+        <h1 class="text-6xl font-bold text-green-500 glow mb-2">💠 PROVION</h1>
+        <p class="text-xl text-gray-400">The Autonomous Meritocracy Protocol</p>
+    </header>
+
+    <main class="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Status Panel -->
+        <div class="border-neon p-6 rounded bg-gray-900 bg-opacity-50">
+            <h2 class="text-2xl text-green-400 mb-4">📡 System Status</h2>
+            <div class="space-y-2">
+                <div class="flex justify-between">
+                    <span>Network:</span>
+                    <span class="text-blue-400">Arbitrum Orbit (L3)</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Execution:</span>
+                    <span class="text-orange-400">Stylus (Rust)</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Prover:</span>
+                    <span class="text-yellow-400">RISC Zero (zkVM)</span>
+                </div>
+                <div class="flex justify-between border-t border-gray-700 pt-2 mt-2">
+                    <span>Contracts:</span>
+                    <span class="text-green-500">Active</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bounty Board Preview -->
+        <div class="border-neon p-6 rounded bg-gray-900 bg-opacity-50">
+            <h2 class="text-2xl text-purple-400 mb-4">🛡️ Open Bounties</h2>
+            <div class="space-y-4">
+                <div class="p-3 border border-gray-700 rounded hover:bg-gray-800 transition cursor-pointer">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="font-bold">#1024: Fix Reentrancy in Vault</span>
+                        <span class="bg-green-900 text-green-300 text-xs px-2 py-1 rounded">500 USDC</span>
+                    </div>
+                    <p class="text-sm text-gray-500">Submitted by: 0x71...A9</p>
+                </div>
+                
+                <div class="p-3 border border-gray-700 rounded hover:bg-gray-800 transition cursor-pointer">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="font-bold">#1025: Optimize ZK Circuit</span>
+                        <span class="bg-green-900 text-green-300 text-xs px-2 py-1 rounded">1200 USDC</span>
+                    </div>
+                    <p class="text-sm text-gray-500">Submitted by: 0xB2...C1</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="mt-12 text-center text-gray-600 text-sm">
+        <p>Pay for code. Verified by math. Settled by consensus.</p>
+        <p class="mt-2">© 2026 PROVION Foundation</p>
+    </footer>
+
+</body>
+</html>

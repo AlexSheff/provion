@@ -1,0 +1,8 @@
+[package]
+name = "provion-host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+risc0-zkvm = "0.21.0"
+provion-methods = { path = "../methods" }

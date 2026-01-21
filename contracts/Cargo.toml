@@ -4,20 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-stylus-sdk = "0.4.1"
+stylus-sdk = "0.6.0"
 alloy-primitives = "0.7.6"
-alloy-sol-types = "0.7.6"
-mini-alloc = "0.4.2"
+hex = "0.4.3"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
 
 [features]
-export-abi = []
-
-[profile.release]
-codegen-units = 1
-strip = true
-lto = true
-panic = "abort"
-opt-level = "z"
+export-abi = ["stylus-sdk/export-abi"]

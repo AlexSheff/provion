@@ -1,0 +1,12 @@
+{
+  "name": "provion-integration-tests",
+  "version": "1.0.0",
+  "description": "Integration tests for Provion",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
