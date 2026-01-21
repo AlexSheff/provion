@@ -1,4 +1,3 @@
-```markdown
 # 💠 PROVION
 
 > **The Autonomous Meritocracy Protocol.**  
