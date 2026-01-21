@@ -1,0 +1,20 @@
+name: PROVION CI
+
+on: [push, pull_request]
+
+jobs:
+  check-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          target: wasm32-unknown-unknown
+          override: true
+      - name: Check Stylus Contracts
+        run: |
+          rustup target add wasm32-unknown-unknown
+          cd contracts
+          cargo check --release --target wasm32-unknown-unknown
