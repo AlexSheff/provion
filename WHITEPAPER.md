@@ -1,4 +1,3 @@
-```markdown
 # WHITEPAPER  
 ## **PROVION**  
 ### **Autonomous Meritocracy Protocol (AMP)**  
@@ -209,4 +208,3 @@ This design ensures collusion is **economically irrational at scale** and that t
 <div align="center">
 <sub>© 2026 PROVION Foundation. Code is Law.</sub>
 </div>
-```
