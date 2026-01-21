@@ -1,0 +1,23 @@
+[package]
+name = "provion-contracts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stylus-sdk = "0.4.1"
+alloy-primitives = "0.7.6"
+alloy-sol-types = "0.7.6"
+mini-alloc = "0.4.2"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+export-abi = []
+
+[profile.release]
+codegen-units = 1
+strip = true
+lto = true
+panic = "abort"
+opt-level = "z"
