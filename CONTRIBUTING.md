@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/AlexSheff/provion/blob/main/provion_logo.svg" width="200" alt="PROVION">
+</p>
+
 # 🤝 Contributing to PROVION
 
 Thank you for your interest in contributing to PROVION! This document provides guidelines and instructions for contributing to the project.
