@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/AlexSheff/provion/blob/main/provion_logo.svg" width="200" alt="PROVION">
+</p>
+
 # WHITEPAPER  
 ## **PROVION**  
 ### **Autonomous Meritocracy Protocol (AMP)**  
