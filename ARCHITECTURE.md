@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/AlexSheff/provion/blob/main/provion_logo.svg" width="200" alt="PROVION">
+</p>
+
 # 🏗 PROVION Architecture
 
 > **Technical Deep-Dive**: A sovereign L3 App-Chain for cryptographically verified open work.
