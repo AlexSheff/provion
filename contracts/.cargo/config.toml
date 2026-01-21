@@ -1,0 +1,10 @@
+[build]
+target = "wasm32-unknown-unknown"
+
+[target.wasm32-unknown-unknown]
+rustflags = [
+    "-C", "link-arg=-s",          # Strip debug symbols (уменьшает размер)
+    "-C", "panic=abort",          # Убирает раскрутку стека при ошибках
+    "-C", "codegen-units=1",      # Максимальная оптимизация (медленнее компилируется, но код быстрее)
+    "-C", "opt-level=z",          # Оптимизация под минимальный РАЗМЕР (z = size)
+]
