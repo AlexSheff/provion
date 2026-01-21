@@ -659,7 +659,7 @@ Add email notifications when a new PR is submitted for a bounty the reviewer is 
 - **GitHub Issues**: Bug reports, specific tasks
 - **Discord**: [discord.gg/provion](https://discord.gg/fnZcbKpTWj) (real-time chat)
 - **Twitter**: [none](none) (announcements)
-- **Telegram**: [t.me/provion](https://t.me/provions) (community chat)
+- **Telegram**: [t.me/provions](https://t.me/provions) (community chat)
 
 ### Weekly Development Calls
 
