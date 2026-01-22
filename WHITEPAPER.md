@@ -4,7 +4,7 @@
 
 # WHITEPAPER  
 ## **PROVION**  
-### **Autonomous Meritocracy Protocol (AMP)**  
+### **Autonomous Meritocracy Protocol (PROVION)**  
 *A Self-Sustaining, Cryptographically Enforced Economy for Open Work*  
 
 **Version**: 3.0 (Final Architecture)  
@@ -17,9 +17,9 @@
 
 Open-source intelligence powers the global economy, yet its creators rely on fragile donation models or centralized corporate patronage. There is no direct, trustless bridge between code committed and value received.
 
-**PROVION** introduces the **Autonomous Meritocracy Protocol (AMP)** — a hyper-structure built on **Arbitrum Orbit L3** that transforms software development into a deterministic market.
+**PROVION** introduces the **Autonomous Meritocracy Protocol (PROVION)** — a hyper-structure built on **Arbitrum Orbit L3** that transforms software development into a deterministic market.
 
-By combining **Recursive Zero-Knowledge Proofs of Git signatures** with **Yield-Bearing Escrows** and **Staked Reviewer Consensus**, AMP solves the "Oracle Problem" of labor. It allows organizations to operate as autonomous code, where work is priced by demand, verified by math, and funded by its own operational efficiency.
+By combining **Recursive Zero-Knowledge Proofs of Git signatures** with **Yield-Bearing Escrows** and **Staked Reviewer Consensus**, PROVION solves the "Oracle Problem" of labor. It allows organizations to operate as autonomous code, where work is priced by demand, verified by math, and funded by its own operational efficiency.
 
 ---
 
@@ -50,7 +50,7 @@ The system is designed around three axioms of elegance:
 
 ## **3. The "Self-Paying" Bounty Engine**
 
-Traditional bounties sit idle, losing value to inflation. AMP turns this inefficiency into a security feature.
+Traditional bounties sit idle, losing value to inflation. PROVION turns this inefficiency into a security feature.
 
 ### **3.1 Yield-Bearing Escrows (YBE)**
 
@@ -145,7 +145,7 @@ The most critical threat: a maintainer and reviewers collude to merge a fraudule
   - If a Fisherman successfully challenges collusion:  
     - **100%** of reviewers’ stake is slashed.  
     - **50%** goes to the Fisherman.  
-  - *Example*: 3 reviewers stake $5,000 each → $15,000 slashed → Fisherman earns **$7,500**.
+  - *ExPROVIONle*: 3 reviewers stake $5,000 each → $15,000 slashed → Fisherman earns **$7,500**.
 - **Dynamic Finality (Time-Lock Escrow)**:  
   - Micro-bounties (<$100): **4h** window  
   - Standard ($1k): **24h**  
@@ -196,7 +196,7 @@ It is a **Sovereign Economic Engine for the open internet**.
 
 In the theoretical worst case, a repository maintainer and a quorum of reviewers may collude to approve malicious code.
 
-AMP does **not** evaluate code quality subjectively. Instead, it enforces **strict accountability**:
+PROVION does **not** evaluate code quality subjectively. Instead, it enforces **strict accountability**:
 - All approvals and signatures are permanently recorded and provable.
 - Damage is **strictly localized** to the affected bounty and repository.
 - Colluding reviewers face:
