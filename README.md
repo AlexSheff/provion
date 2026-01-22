@@ -1,3 +1,6 @@
+🚧 WARNING: WORK IN PROGRESS
+This repository is currently under active development (Pre-Alpha). Contracts are unaudited and deployed on Testnet only. APIs and Storage layouts may change.
+
 <p align="center">
   <img src="https://github.com/AlexSheff/provion/blob/main/provion_logo.svg" width="200" alt="PROVION">
 </p>
